@@ -48,7 +48,6 @@ class Solution {
             return true;
         }else if(node.left == null && node.right == null){
             if(checkUbAndLb(node) == true){
-                //to dooo
                 return true;
             }else return false;
 
